@@ -24,7 +24,7 @@ In this project, I had to perform the tasks below, I used different Python libra
 - I provided the trend chart for the number of complaints at monthly and daily granularity levels.
 - I provided a table with the frequency of complaint types.
 
-Which complaint types are maximum i.e., around internet, network issues, or across any other domains.
+I was required to identify which complaint types are maximum i.e., around internet, network issues, or across any other domains.
 - I created a new categorical variable with value as Open and Closed. I categorized Open & Pending categorized as [Open] and Closed & Solved as [Closed].
 - I provided state wise status of complaints in a stacked bar chart and used the categorized variable from Q3 - third quarter. The insights I provided were on:
 
