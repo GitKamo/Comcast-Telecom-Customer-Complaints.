@@ -1,34 +1,12 @@
-# Real-industry-projects - [Comcast Telecommunications].
+# Comcast Telecommunications.
 
-Problem Statement.
-Comcast is an American global telecommunication company. The firm has been providing terrible customer service. They continue to fall short despite repeated promises to improve. Only last month (October 2016) the authority fined them a $2.3 million, after receiving over 1000 consumer complaints.
-The existing database will serve as a repository of public customer complaints filed against Comcast.
-It will help to pin down what is wrong with Comcast's customer service.
+I was working on this project analyzing customer complaints filed against Comcast, a global telecommunications company known for poor customer service. Despite repeated promises to improve, the company continues to fall short and was even fined $2.3 million last month after receiving over 1000 consumer complaints. My task was to use Python libraries such as NumPy, SciPy, Pandas, scikit-learn, matplotlib, and BeautifulSoup to analyze the data in the existing database of complaints.
 
-Data Dictionary
+My responsibilities included importing the data into the Python environment and providing trend charts for the number of complaints at monthly and daily granularity levels. I also provided a table with the frequency of complaint types and identified which types are the most common, such as internet or network issues.
 
-Ticket #: Ticket number assigned to each complaint
-Customer Complaint: Description of complaint
-Date: Date of complaint
-Time: Time of complaint
-Received Via: Mode of communication of the complaint
-City: Customer city
-State: Customer state
-Zipcode: Customer zip
-Status: Status of complaint
-Filing on behalf of someone
-Analysis Task
+I created a new categorical variable with values of Open and Closed, categorizing complaints as Open and Pending as [Open] and Closed and Solved as [Closed]. I also provided a stacked bar chart showing the state-wise status of complaints and used the categorized variable from Q3 to provide insights on which states have the maximum complaints and highest percentage of unresolved complaints.
 
-In this project, I had to perform the tasks below, I used different Python libraries such as NumPy, SciPy, Pandas, scikit-learn, matplotlib, and BeautifulSoup.
+Finally, I provided the percentage of complaints resolved till date that were received through the internet and customer care calls.
 
-- I imported data into the Python environment.
-- I provided the trend chart for the number of complaints at monthly and daily granularity levels.
-- I provided a table with the frequency of complaint types.
 
-I was required to identify which complaint types are maximum i.e., around internet, network issues, or across any other domains.
-- I created a new categorical variable with value as Open and Closed. I categorized Open & Pending categorized as [Open] and Closed & Solved as [Closed].
-- I provided state wise status of complaints in a stacked bar chart and used the categorized variable from Q3 - third quarter. The insights I provided were on:
 
-States which had the maximum complaints
-States which had the highest percentage of unresolved complaints
-- I had to provide the percentage of complaints resolved till date, which were received through the Internet and customer care calls.
